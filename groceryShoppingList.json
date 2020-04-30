@@ -1,0 +1,82 @@
+[
+    {
+        "serialNumber" : "1",
+        "name" : "Rice",
+        "quantity" : "10",
+        "unit"  : "Kilo Gram",
+        "department" : "Grocery",
+        "notes" : "Kuruva Gold"
+    },
+    {
+        "serialNumber" : "2",
+        "name" : "Coconut Oil",
+        "quantity" : "3",
+        "unit"  : "Litre",
+        "department" : "Grocery",
+        "notes" : "KPL"
+    },
+    {
+        "serialNumber" : "3",
+        "name" : "Chilly Powder",
+        "quantity" : "0.5",
+        "unit"  : "Kilo Gram",
+        "department" : "Grocery",
+        "notes" : "Eastern"
+    },
+    {
+        "serialNumber" : "4",
+        "name" : "Potato",
+        "quantity" : "3",
+        "unit"  : "Kilo Gram",
+        "department" : "Vegetables",
+        "notes" : "Fresh"
+    },
+    {
+        "serialNumber" : "5",
+        "name" : "Onion (Savala)",
+        "quantity" : "3",
+        "unit"  : "Kilo Gram",
+        "department" : "Vegetables",
+        "notes" : "Fresh"
+    },
+    {
+        "serialNumber" : "6",
+        "name" : "Tea Powder",
+        "quantity" : "300",
+        "unit"  : "Gram",
+        "department" : "Beverages & Concentrates",
+        "notes" : "Kannan Devan"
+    },
+    {
+        "serialNumber" : "7",
+        "name" : "Sugar",
+        "quantity" : "3",
+        "unit"  : "Kilo Gram",
+        "department" : "Grocery",
+        "notes" : "White Sugar"
+    },
+    {
+        "serialNumber" : "8",
+        "name" : "Dish Wash Liquid",
+        "quantity" : "500",
+        "unit"  : "Milli Litre",
+        "department" : "Cleaning & Household",
+        "notes" : "Prill Lemon"
+    },
+    {
+        "serialNumber" : "9",
+        "name" : "Biscuits",
+        "quantity" : "100",
+        "unit"  : "Gram",
+        "department" : "Snacks & Sweets",
+        "notes" : "Sunfeast"
+    },
+    {
+        "serialNumber" : "10",
+        "name" : "Toothpaste",
+        "quantity" : "100",
+        "unit"  : "Gram",
+        "department" : "Beauty & Hygiene",
+        "notes" : "Colgate"
+    }
+]
