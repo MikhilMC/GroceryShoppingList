@@ -15,23 +15,29 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="container bg-info">
+    <div class="container bg-info text-light">
         <p>Click the button below to generate Grocery Shopping List</p>
         <button type="button" id="generate" onclick="generateList();">Generate List</button>
     </div>
-    <table class="table table-striped table-bordered table-sm">
-        <caption>Grocery Shopping List</caption>
-        <thead class="thead-dark">
-            <th scope="col">Serial Number</th>
-            <th scope="col">Name</th>
-            <th scope="col">Quantity</th>
-            <th scope="col">Unit</th>
-            <th scope="col">Department</th>
-            <th scope="col">Notes</th>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>
+    <h1>Grocery Shopping List</h1>
+    <div class="container">
+        <table class="table table-striped table-bordered table-sm">
+            <!-- <caption>Grocery Shopping List</caption> -->
+            <colgroup>
+                <col span="1" style="width: fit-content;"> 
+            </colgroup>
+            <thead class="thead-dark">
+                <th scope="col">Serial Number</th>
+                <th scope="col">Name</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Unit</th>
+                <th scope="col">Department</th>
+                <th scope="col">Notes</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>   
     <script src="./api.js"></script>
 </body>
 </html>
