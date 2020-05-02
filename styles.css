@@ -25,4 +25,5 @@ caption {
 select {
     width: 250px !important;
     display: inline-block !important;
+    margin-top: 10px;
 }
