@@ -16,8 +16,20 @@
 </head>
 <body>
     <div class="container bg-info text-light">
-        <p>Click the button below to generate Grocery Shopping List</p>
-        <button type="button" id="generate" onclick="generateList();">Generate List</button>
+        <p>Select from the options below to view Grocery Shopping List</p>
+        <!-- <button type="button" id="generate" onclick="generateList();">Generate List</button> -->
+        <div class="form-group">
+            <select class="form-control" name="itemName" id="itemName" onchange="generateList();">
+                <option value="select">Select Department</option>
+                <option value="All">All</option>
+                <option value="Grocery">Grocery</option>
+                <option value="Vegetables">Vegetables</option>
+                <option value="Beverages & Concentrates">Beverages & Concentrates</option>
+                <option value="Cleaning & Households">Cleaning & Household</option>
+                <option value="Snacks & Sweets">Snacks & Sweets</option>
+                <option value="Beauty & Hygiene">Beauty & Hygiene</option>
+            </select>
+        </div>
     </div>
     <h1>Grocery Shopping List</h1>
     <div class="container">
