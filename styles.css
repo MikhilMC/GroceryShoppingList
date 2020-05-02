@@ -72,3 +72,9 @@ select {
     display: inline-block !important;
     margin-top: 10px;
 }
+
+@media (max-width: 718px) {
+    header {
+        height: 150px;
+    }
+}
